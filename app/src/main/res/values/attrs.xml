@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SliddingCard">
+        <attr name="android:colorBackground" />
+        <attr name="android:text" />
+    </declare-styleable>
+
+
+    <declare-styleable name="WaveView">
+
+        <!--波长 一个波峰 占 X轴的长度-->
+        <attr name="waveLength" format="dimension" />
+
+        <!--是否上升-->
+        <attr name="rise" format="boolean" />
+
+        <!--小船图片-->
+        <attr name="boatBitmap" format="reference" />
+
+        <!--水位的初始位置-->
+        <attr name="originY" format="dimension" />
+
+        <!--波峰的高度-->
+        <attr name="waveHeight" format="dimension" />
+
+        <!--水流快慢-->
+        <attr name="duration" format="dimension" />
+    </declare-styleable>
+</resources>
